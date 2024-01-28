@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 3 - internal CSS-->
+    <!--
+    <style>
+        p{
+            
+        }
+    </style>
+-->
+
+    <!-- 4 - External CSS -->
+    <!--Cascading style sheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="titles.css">
+</head>
+<body>
+    <!-- 1 - Inline CSS -->
+    <h1 style="color: blueviolet;">Mudar a cor com inline</h1>
+    <h1>outro exemplo, para ver que pelo inline não se aplica</h1>
+
+    <!-- 2 - Múltiplas regras -->
+    <h1 style="color: aquamarine; font-size: 80px; border-bottom: 1px solid red;">mudar cor e tamanho da fonte</h1>
+
+    <!-- 3 - internal CSS-->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>mais</p>
+    <p>mais outro</p>
+
+    <!-- 4 - External CSS -->
+    <h3>Meu titulo verde</h3>
+
+    <!-- 5 - Ordem do CSS -->
+    <p style="color: chocolate;">Ordem do CSS</p>
+    <p>Ordem do CSS</p>
+
+    <!-- 6 - Multiplo CSS -->
+    <ul>
+        <li>Banana</li>
+        <li>Maça</li>
+        <li>Abacate</li>
+    </ul>
+
+    <!-- 7 - Desafio 2 -->
+    <h4>Eu sou o título do desafio</h4>
+
+    <!-- 8 - Classes -->
+    <p class="paragraph">algum texto </p>
+    <p class="paragraph">algum texto 2 </p>
+    <p class="paragraph">algum texto 3 </p>
+
+    <!-- 9 - id -->
+    <h1 id="exclusive-title">Esse é um titulo com id</h1>
+
+    <!-- 10 - multiplas regras, ordem do css -->
+    <h2 id="algum-titulo" class="algum-titulo">algum texto 1</h2>
+    <h2 class="titulo">algum texto 2</h2>
+    <h2>algum texto 3</h2>
+<hr>
+    <!-- 11 - nome de cor -->
+    <p class="color-name">qualquer texto para nomes de cores</p>
+<hr>
+    <!-- 12 - HEX -->
+    <p class="hex">paragrafo com hex</p>
+    <p class="hex-2">paragrafo com outa hex 2</p> 
+<hr>
+    <!-- 13 -mais sobre hex -->
+    <p class="simple-hex">hex simplificado</p>
+    <p class="simple-hex 2">hex simplificado 2 </p>
+<hr>
+    <!-- 14 - RGB -->
+    <p class="rgb">esse foi estilizado com rgb</p>
+    <p class="mixed-rgb">esse foi estilizado com rgb</p>
+<hr>
+    <!-- 15 - RGBA -->
+    <p class="rgba">este foi estilizado com rgba</p>
+<hr>
+    <!-- 16 - hsl -->
+    <p class="hsl">este foi estilizado com hsl</p>
+    <p class="hsl-2">este foi estilizado com hsl 2</p>
+<hr>
+<!-- 17 -  mude o meu background-color -->
+<p class="bg">mude o meu background</p>
+<h2 class="bg-2">outra variação</h2>
+
+<!-- 18 - opacidade no bg -->
+<div class="bg-opacity">
+    <p>estou aqui</p>
+    
+</div>
+
+<div class="bg-opacity-2">
+    <p>estou aqui 2</p>
+</div>
+<!-- 19 -  não fiz o exemplo  -->
+<hr>
+
+
+<!-- 20 - bg image -->
+<h1 class="bg-image">esse titulo tem uma imagem</h1>
+
+<!-- 21 - centralziar img de bg -->
+<div class="not-centered-bg"></div>
+<div class="centered-bg"></div>
+
+<!-- 22- largura e altura -->
+<div class="height-width"></div>
+<div class="height-width-2"></div>
+<br>
+
+<!-- 23 - padding -->
+<div class="without-padding">Este não tem padding</div>
+<div class="padding">este tem padding</div>
+
+<!-- 24 - padding individual -->
+<p class="padding-individual">Estes elementos tem padding diferentes</p>
+
+<!-- 25 - shorthand padding -->
+<p class="shorthand-padding">algum texto</p>
+<p class="shorthand-padding-2">algum texto 2</p>
+
+<!-- 26 - padding com width -->
+<div class="without-border-box">
+<p>algum conteúdo</p>
+</div>
+<div class="border-box">algum conteúdo 2</div>
+
+<!-- 27 - border -->
+<div class="border">borda</div>
+<div class="border-2">borda 2</div>
+
+<!-- 28 - borda individual -->
+<p class="border-left">borda na esquerda</p>
+<p class="border-bottom">borda inferior</p>
+
+<!-- 29 - borda arredondada  -->
+<div class="rounded-p">Eu estou arredondado</div>
+<br>
+<div class="rounded-p-2">Eu estou arredondado</div>
+
+<!-- 30 - margem -->
+<div class="margin">Eu tenho margem</div>
+<div class="margin-top">eu tenho margem no topo</div>
+<div class="margin-shorthand">utilizando shorthand</div>
+
+<!-- 31 -box-model -->
+<div class="box-model">
+    <p>tenho todas as propriedades do box model</p>
+</div>
+
+<!-- 32 -  desafio 3 -->
+<div id="box-model-challenge">
+<h2 class="challenge-title">vamos estilizar o box model</h2>
+</div>
+
+<!-- 33 - text alignment -->
+<p class="text-aligned">Alinhamento a direita</p>
+<div class="container-center">
+    <h2>estamos centralizados</h2>
+    <p>algum texto</p>
+</div>
+
+<!--  34 - text deorations -->
+<p class="underline">Eu tenho um underline</p>
+<p class="line-trough">eu tenho um risco</p>
+<a href="#" class="remove-underline">sem underline</a>
+
+<!-- 35 - text tranform -->
+<p class="upper">este texto é caixa alta</p>
+<p class="lower">ESTE É EM LOWER</p>
+
+<!--  36 - letter spacing -->
+<h2 class="spacing">Eu tenho um espaçamento maior</h2>
+
+<!-- 37 - Font -->
+<p class="serif">Serif fonte</p>
+<p class="sans-serif"> Sans serif font</p>
+<p class="monospace">monospace fonte</p>
+<p class="cursive">Cursive fonte</p>
+<p class="fantasy">fantasy fonte</p>
+<hr>
+
+<!-- 38 - Font style -->
+<p class="italic">Eu estou em Itálico</p>
+<p class="oblique">Eu estou em oblíquo</p>
+<hr>
+<!-- 39 - Font Weight -->
+<p class="thin">Eu sou mais fino</p>
+<p class="bold">Eu estou em bold</p>
+<p class="bolder">Eu sou a maior fonte</p>
+
+<!-- 40 - font size   -->
+</body>
+</html>

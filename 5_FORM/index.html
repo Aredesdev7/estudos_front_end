@@ -47,6 +47,39 @@
                     <option value="milho">milho</option>
                 </select>
             </div>
+            <!-- 9 - textarea-->
+            <div>
+                <label for="comment">escreva a baixo oque voce achou do post:</label>
+            <textarea name="comment"  cols="30" rows="10"></textarea>
+            </div>
+            <!-- 10 fieldset e legend -->
+            <div> 
+                <fieldset>
+                    <legend>preencha as suas informações</legend>
+                    <label for="firstname">Nome:</label>
+                    <input type="text" name="firstname"> 
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" name="lastname">
+                </fieldset>
+            </div>
+
+            <!-- 11 datalist -->
+            <div>
+                <label for="flavor">escolha o sabor:</label>
+                <input type="text" list="flavors" name="flavor">
+                <datalist id="flavors">
+                    <option value="Cereja"></option>
+                    <option value="Morango"></option>
+                    <option value="Abacaxi"></option>
+                    <option value="chocolate"></option>  
+                </datalist>
+            </div>
+
+            <!-- 12 - senha --->
+            <div>
+                <label for="passaword">Digite a sua senha:</label>
+            </div>
+            
             <!-- 5 envio de form-->
             <input type="submit" value="enviar"/>
     </form>
